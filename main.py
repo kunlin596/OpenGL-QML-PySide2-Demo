@@ -2,7 +2,6 @@ from PyQt5.QtGui import QGuiApplication
 from PyQt5.QtQml import qmlRegisterType, QQmlApplicationEngine
 from PyQt5.QtCore import QUrl
 from PyQt5.QtQuick import QQuickView
-
 from squircle import Squircle
 
 import sys

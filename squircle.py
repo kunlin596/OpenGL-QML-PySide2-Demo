@@ -1,5 +1,5 @@
 from PyQt5.QtCore import pyqtSignal, pyqtSlot, pyqtProperty, QObject, QSize
-from PyQt5.QtQuick import QQuickItem, QQuickWindow, QQuickView
+from PyQt5.QtQuick import QQuickItem
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QOpenGLShader, QOpenGLShaderProgram
 from OpenGL.GL import *
@@ -69,7 +69,6 @@ class SquircleRenderer(QObject):
 
 		glEnable(GL_BLEND)
 		glBlendFunc(GL_SRC_ALPHA, GL_ONE)
-
 
 		glDrawArrays(GL_TRIANGLE_STRIP, 0, 4)
 		self._shader_program.disableAttributeArray(0)
