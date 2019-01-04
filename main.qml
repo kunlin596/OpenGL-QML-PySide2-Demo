@@ -68,8 +68,8 @@ Item {
     Rectangle {
         color: Qt.rgba(1, 1, 1, 0.7)
         radius: 10
-        border.width: 1
-        border.color: "white"
+        border.width: 3
+        border.color: "yellow"
         anchors.fill: label
         anchors.margins: -10
     }
